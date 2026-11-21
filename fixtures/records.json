@@ -1,0 +1,29 @@
+{
+  "dataset": "equity",
+  "records": [
+    {
+      "id": "e-01",
+      "objective": "revise-an-argument",
+      "path": "paid-assistant",
+      "available": true,
+      "alternative": "teacher-conference",
+      "evidence": "matched-objective"
+    },
+    {
+      "id": "e-02",
+      "objective": "revise-an-argument",
+      "path": "offline-peer-review",
+      "available": true,
+      "alternative": "offline-peer-review",
+      "evidence": "pending-alignment"
+    },
+    {
+      "id": "e-03",
+      "objective": "evaluate-source-quality",
+      "path": "paid-assistant",
+      "available": false,
+      "alternative": "none",
+      "evidence": "not-applicable"
+    }
+  ]
+}
